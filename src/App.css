@@ -46,6 +46,12 @@ header nav button {
   color: #333333;
 }
 
+header nav button:hover {
+  background-color: #9e83f4;
+  color: #ffffff;
+  transition: 0.2s ease-in;
+}
+
 header nav a {
   font-style: normal;
   font-weight: 400;
@@ -121,6 +127,12 @@ main #principal div button {
   line-height: 32px;
   text-align: center;
   color: #333333;
+}
+
+main #principal div button:hover {
+  background: #deae33;
+  transition: 0.2s ease-in;
+  color: #000;
 }
 
 main #logos {
@@ -323,6 +335,12 @@ main #cta #caixa #box1 button {
   line-height: 32px;
   text-align: center;
   color: #333333;
+}
+
+main #cta #caixa #box1 button:hover {
+  background: #deae33;
+  transition: 0.2s ease-in;
+  color: #000;
 }
 
 main #cta #caixa #box2 {

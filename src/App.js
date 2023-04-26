@@ -11,7 +11,11 @@ import Card from "./assets/Cards icon.svg";
 import Coin from "./assets/Coin icon.svg";
 import Purse from "./assets/Purse icon.svg";
 
+import ScrollReveal from "scrollreveal";
+
 function App() {
+  ScrollReveal({ reset: true }).reveal(".reveal", { delay: 300 });
+
   return (
     <div className="App">
       <header>
@@ -28,8 +32,8 @@ function App() {
       <main>
         <section id="principal">
           <div>
-            <h1>Get started with Wallet</h1>
-            <p>
+            <h1 className="reveal">Get started with Wallet</h1>
+            <p className="reveal">
               Wallet is where you keep your credit, debit, and transit cards,
               boarding passes, tickets, and more — all in one place.
             </p>
@@ -53,7 +57,7 @@ function App() {
 
         <section id="features">
           <div id="caixa1">
-            <div className="div">
+            <div className="div reveal">
               <img src={Card} alt="" />
               <div className="box">
                 <h1>Customizable card</h1>
@@ -64,7 +68,7 @@ function App() {
               </div>
             </div>
 
-            <div className="div">
+            <div className="div reveal">
               <img src={Coin} alt="" />
               <div className="box">
                 <h1>No payment fee</h1>
@@ -74,7 +78,7 @@ function App() {
               </div>
             </div>
 
-            <div className="div">
+            <div className="div reveal">
               <img src={Purse} alt="" />
               <div className="box">
                 <h1>All in one place</h1>
@@ -94,14 +98,14 @@ function App() {
         <section id="userFeedback">
           <div>
             <img src={Aspas} alt="" />
-            <p>
+            <p className="reveal">
               “Wallet is a great product! All of my most important information
               is there - credit cards, transit cards, boarding passes, tickets,
               and more. And I don't need to worry because it's all in one place!
               thanks!”
             </p>
 
-            <h4>Johnny Owens</h4>
+            <h4 className="reveal">Johnny Owens</h4>
           </div>
         </section>
         <section id="cta">
