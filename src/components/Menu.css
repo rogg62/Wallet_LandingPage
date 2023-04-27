@@ -52,22 +52,20 @@ header nav a {
   text-decoration: none;
 }
 
-
 @media screen and (min-width: 200px) and (max-width: 767px) {
-  header{
+  header {
     width: 100%;
     overflow: hidden;
+
   }
 
   header nav {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1240px) {
   header {
     width: 100%;
   }
-
 }

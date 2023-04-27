@@ -68,8 +68,9 @@
   }
 
   #principal div {
-    width: 100%;
+    width: 99%;
     margin-bottom: 80px;
+
   }
 
   #principal div h1 {
@@ -81,6 +82,7 @@
     line-height: 60px;
     text-align: center;
     color: #ffffff;
+
   }
 
   #principal div p {
@@ -93,6 +95,7 @@
     text-align: center;
     color: #ffffff;
     opacity: 0.4;
+
   }
 }
 
