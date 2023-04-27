@@ -1,0 +1,103 @@
+#principal {
+  width: 1280px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#principal div {
+  width: 57.89%;
+  height: 35.89%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10.62% 0 10.62% 0;
+}
+
+#principal div h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  width: 698px;
+  height: 90px;
+}
+
+#principal div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.4;
+  width: 741px;
+  height: 66px;
+  margin: 5% 0 0 0;
+}
+
+#principal div button {
+  width: 175px;
+  height: 50px;
+  margin: 5% 0 0 0;
+  background: #e8bf59;
+  border: none;
+  border-radius: 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+}
+
+#principal div button:hover {
+  background: #deae33;
+  transition: 0.2s ease-in;
+  color: #fff;
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  #principal {
+    width: 100%;
+  }
+
+  #principal div {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  #principal div h1 {
+    width: 335px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #principal div p {
+    width: 335px;
+    height: 128px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+  #principal {
+    width: 100%;
+  }
+}

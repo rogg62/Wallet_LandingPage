@@ -1,0 +1,37 @@
+#logos {
+  width: 1280px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logos div {
+  width: 84.37%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  #logos div {
+    width: 335px;
+    background: url(../assets/Logos\ 1282.svg) center center no-repeat;
+  }
+
+  #logos div img {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+  main #logos {
+    width: 100%;
+  }
+
+  main #logos div img {
+    width: 100%;
+  }
+}
