@@ -1,17 +1,17 @@
 import "./Menu.css";
 import Logo from "../assets/Wallet logo.svg";
-
+import { Link } from "react-router-dom";
 import React from "react";
 
 const Menu = () => {
   return (
     <header>
-      <a href="1">
+      <a href="#principal">
         <img src={Logo} alt="" />
       </a>
 
       <nav>
-        <a href="1">Sign up</a>
+        <Link id="Link" to="/Login">Sign up</Link>
         <button>Log in</button>
       </nav>
     </header>

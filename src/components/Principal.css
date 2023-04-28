@@ -40,10 +40,15 @@
   margin: 5% 0 0 0;
 }
 
+#principal div Link {
+  margin: 5% 0 0 0;
+}
+
 #principal div button {
   width: 175px;
   height: 50px;
-  margin: 5% 0 0 0;
+  margin: 25% 0 0 0;
+
   background: #e8bf59;
   border: none;
   border-radius: 15px;
@@ -70,7 +75,6 @@
   #principal div {
     width: 99%;
     margin-bottom: 80px;
-
   }
 
   #principal div h1 {
@@ -82,7 +86,6 @@
     line-height: 60px;
     text-align: center;
     color: #ffffff;
-
   }
 
   #principal div p {
@@ -95,7 +98,6 @@
     text-align: center;
     color: #ffffff;
     opacity: 0.4;
-
   }
 }
 

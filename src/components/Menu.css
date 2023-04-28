@@ -7,7 +7,7 @@ header {
   flex-direction: row;
 }
 
-header a {
+header a{
   margin: 0 0 0 50px;
 }
 
@@ -42,7 +42,7 @@ header nav button:hover {
   transition: 0.2s ease-in;
 }
 
-header nav a {
+header nav #Link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
