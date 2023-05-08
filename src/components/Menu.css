@@ -7,7 +7,7 @@ header {
   flex-direction: row;
 }
 
-header a{
+header a {
   margin: 0 0 0 50px;
 }
 
@@ -55,8 +55,13 @@ header nav #Link {
 @media screen and (min-width: 200px) and (max-width: 767px) {
   header {
     width: 100%;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  header a {
+    margin: 0;
   }
 
   header nav {
@@ -67,5 +72,13 @@ header nav #Link {
 @media screen and (min-width: 768px) and (max-width: 1240px) {
   header {
     width: 100%;
+  }
+
+  header a {
+    margin: 0 0 0 20px;
+  }
+
+  header nav {
+    margin: 0 20px 0 0 ;
   }
 }
