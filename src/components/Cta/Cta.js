@@ -1,6 +1,5 @@
 import "./Cta.css";
-import Gif from "../assets/GIF.svg";
-import { Link } from "react-router-dom";
+import Gif from "../../assets/GIF.svg";
 
 import React from "react";
 
@@ -13,7 +12,7 @@ const Cta = () => {
           <p>
             Contact us through our 24/7 live chat. We're always happy to help!
           </p>
-          <Link to="/Login"><button>Get started</button></Link>
+          <a href="#login"><button>Get started</button></a>
         </div>
         <div id="box2">
           <img src={Gif} alt="" />

@@ -1,9 +1,9 @@
 import "./Features.css";
 
-import Image2 from "../assets/Image (1).svg";
-import Card from "../assets/Cards icon.svg";
-import Coin from "../assets/Coin icon.svg";
-import Purse from "../assets/Purse icon.svg";
+import Image2 from "../../assets/Image (1).svg";
+import Card from "../../assets/Cards icon.svg";
+import Coin from "../../assets/Coin icon.svg";
+import Purse from "../../assets/Purse icon.svg";
 import React from "react";
 
 const Features = () => {

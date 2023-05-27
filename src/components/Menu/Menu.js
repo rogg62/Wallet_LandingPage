@@ -1,6 +1,5 @@
 import "./Menu.css";
-import Logo from "../assets/Wallet logo.svg";
-import { Link } from "react-router-dom";
+import Logo from "../../assets/Wallet logo.svg";
 import React from "react";
 
 const Menu = () => {
@@ -11,7 +10,7 @@ const Menu = () => {
       </a>
 
       <nav>
-        <Link id="Link" to="/Login">Sign up</Link>
+        <a id="Link" href="#login">Sign up</a>
         <button>Log in</button>
       </nav>
     </header>

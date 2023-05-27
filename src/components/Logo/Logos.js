@@ -1,5 +1,5 @@
 import "./Logos.css"
-import Logos from "../assets/Logos.svg";
+import Logos from "../../assets/Logos.svg";
 
 import React from 'react'
 

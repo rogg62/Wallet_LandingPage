@@ -19,7 +19,7 @@
 @media screen and (min-width: 200px) and (max-width: 767px) {
   #logos div {
     width: 335px;
-    background: url(../assets/Logos\ 1282.svg) center center no-repeat;
+    background: url("../../assets/Logos\ 1282.svg") center center no-repeat;
   }
 
   #logos div img {

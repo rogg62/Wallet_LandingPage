@@ -1,6 +1,5 @@
 import "./Principal.css";
-import GroupPrincipal from "../assets/Group.svg";
-import { Link } from "react-router-dom";
+import GroupPrincipal from "../../assets/Group.svg";
 
 import React from "react";
 
@@ -14,9 +13,9 @@ const Principal = () => {
           boarding passes, tickets, and more — all in one place.
         </p>
 
-        <Link to="/Login">
+        <a href="#login">
           <button>Get started</button>
-        </Link>
+        </a>
       </div>
 
       <img src={GroupPrincipal} alt="" />

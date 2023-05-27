@@ -1,5 +1,5 @@
 import "./UserFeedBack.css";
-import Aspas from "../assets/Quote icon.svg";
+import Aspas from "../../assets/Quote icon.svg";
 
 import React from "react";
 

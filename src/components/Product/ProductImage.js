@@ -1,5 +1,5 @@
 import "./ProductImage.css"
-import Image from "../assets/Image.svg";
+import Image from "../../assets/Image.svg";
 
 import React from 'react'
 
