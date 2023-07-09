@@ -1,15 +1,45 @@
+import React from "react";
 import "./Features.css";
+import { useLayoutEffect, useRef } from "react";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 import Image2 from "../../assets/Image (1).svg";
 import Card from "../../assets/Cards icon.svg";
 import Coin from "../../assets/Coin icon.svg";
 import Purse from "../../assets/Purse icon.svg";
-import React from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Features = () => {
+  const main = useRef();
+
+  useLayoutEffect(() => {
+    const ctx = gsap.context((self) => {
+      const boxes = self.selector(".div");
+      boxes.forEach((div) => {
+        gsap.fromTo(
+          div,
+          { opacity: 0,
+          x: -30 },
+          {
+            opacity:1,
+            x: 0,
+            scrollTrigger: {
+              trigger: div,
+              start: "bottom bottom",
+              end: "top 50%",
+              scrub: true,
+            },
+          }
+        );
+      });
+    }, main);
+    return () => ctx.revert();
+  }, []);
 
   return (
-    <section id="features">
+    <section id="features" ref={main}>
       <div id="caixa1">
         <div className="div">
           <img src={Card} alt="" />
