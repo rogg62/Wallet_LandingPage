@@ -15,7 +15,7 @@ const Cta = () => {
       boxes.forEach((paragraf) => {
         gsap.fromTo(
           paragraf,
-          { opacity: 0, x: 10 },
+          { opacity: 0, x: -10 },
           {
             opacity: 1,
             x: 0,
