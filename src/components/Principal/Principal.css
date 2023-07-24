@@ -64,12 +64,12 @@
 #principal div button:hover {
   background: #deae33;
   transition: 0.2s ease-in;
-  color: #fff;
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
   #principal {
     width: 100%;
+    margin-top: 100px;
   }
 
   #principal div {
@@ -104,5 +104,6 @@
 @media screen and (min-width: 768px) and (max-width: 1240px) {
   #principal {
     width: 100%;
+    margin-top: 100px;
   }
 }

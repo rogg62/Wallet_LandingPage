@@ -18,13 +18,17 @@ footer #img {
   margin-left: 50px;
 }
 
-footer div a {
+footer div button {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
   text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
